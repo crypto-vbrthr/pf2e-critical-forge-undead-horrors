@@ -1,15 +1,15 @@
-import { MODULE_ID, PACK_ID, undeadCard, effect } from "./helpers.js";
+import { MODULE_ID, PACK_IDS, undeadCard, effect } from "./helpers.js";
 
 const undeadHit = { sourceTraits: ["undead"] };
 
-export const UNDEAD_HORRORS_PACK = Object.freeze({
+export const UNDEAD_CRITICAL_HITS_PACK = Object.freeze({
   schemaVersion: 1,
-  id: PACK_ID,
-  titleKey: "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Pack.Title",
-  descriptionKey: "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Pack.Description",
-  fallbackTitle: "Undead Horrors",
-  fallbackDescription: "Critical consequences born from undeath, and devastating blows struck against the undead.",
-  version: "0.1.0",
+  id: PACK_IDS.undeadCriticalHits,
+  titleKey: "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Packs.UndeadCriticalHits.Title",
+  descriptionKey: "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Packs.UndeadCriticalHits.Description",
+  fallbackTitle: "Undead Critical Hits",
+  fallbackDescription: "Critical consequences inflicted by undead attackers.",
+  version: "0.1.1",
   priority: 20,
   enabled: true,
   metadata: { theme: "undead-horror", module: MODULE_ID, phase: "test-cards" },

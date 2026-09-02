@@ -1,5 +1,9 @@
 export const MODULE_ID = "pf2e-critical-forge-undead-horrors";
-export const PACK_ID = `${MODULE_ID}.undead-horrors`;
+export const PACK_IDS = Object.freeze({
+  undeadCriticalHits: `${MODULE_ID}.undead-critical-hits`,
+  undeadFumbles: `${MODULE_ID}.undead-fumbles`,
+  criticalHitsAgainstUndead: `${MODULE_ID}.critical-hits-against-undead`
+});
 export const ONE_ROUND = Object.freeze({ value: 1, unit: "rounds", expiry: "turn-end" });
 
 const EMPTY_FILTERS = Object.freeze({
@@ -9,13 +13,13 @@ const EMPTY_FILTERS = Object.freeze({
   excludedSourceTraits: [], excludedTargetTraits: []
 });
 
-export function undeadCard({ id, key, category, tone = "dramatic", impact = "moderate", title, description, filters = {}, effect = null, tags = [] }) {
+export function undeadCard({ packId = PACK_IDS.undeadCriticalHits, id, key, category, deckType = "attack", tone = "dramatic", impact = "moderate", title, description, filters = {}, effect = null, tags = [] }) {
   return Object.freeze({
     schemaVersion: 1,
     id: `${MODULE_ID}.${id}`,
-    packId: PACK_ID,
+    packId,
     category,
-    deckType: "attack",
+    deckType,
     tone,
     impact,
     titleKey: `PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Cards.${key}.Title`,

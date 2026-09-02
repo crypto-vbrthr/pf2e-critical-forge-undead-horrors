@@ -17,3 +17,6 @@ Planned full library:
 5. Test `The Grave Remembers You` against a `mindless` target and confirm it is rejected.
 6. Test `Dead Hands Do Not Release` with an `incorporeal` undead attacker and confirm it is rejected.
 7. Apply a card effect and confirm the Effect Engine creates/applies the expected one-round consequence.
+
+## Pack selection
+The GM can choose which Undead Horrors packs are used in **Configure Settings → Module Settings**. Pack changes are synchronized live with PF2E Critical Forge. In 0.1.1, **Undead Critical Hits** contains the initial five test cards; the settings for **Undead Fumbles** and **Critical Hits Against Undead** are already reserved for the upcoming packs.

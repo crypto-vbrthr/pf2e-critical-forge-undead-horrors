@@ -2,7 +2,7 @@
 
 Undead-themed critical-result expansion for **PF2E Critical Forge**.
 
-## v0.1.0 content pass 1
+## v0.2.0
 
 The module provides three independently configurable Critical Forge packs:
 
@@ -14,13 +14,19 @@ All three settings are world settings, enabled by default, and require a reload 
 
 ### Implemented content
 
-**Critical Hits by Undead** now contains 30 approved semantic outcomes. Critical Forge card schema v1 stores one category per card, so every semantic outcome is mirrored internally as a `criticalHit` and `spellCriticalHit` definition. This yields 60 internal card definitions while presenting the same 30 outcomes in weapon-attack and spell-attack contexts.
+**Critical Hits by Undead** contains 30 distinct outcomes.
 
-Every outcome requires the attacker to have the `undead` trait. Additional filters distinguish mindless, incorporeal, intelligent, and living-target situations where appropriate.
+**Critical Fumbles by Undead** contains 30 distinct outcomes.
 
-Most mechanical consequences use Critical Forge's Effect Engine directly. Effects that need target-specific predicates, reaction suppression, Step suppression, immediate movement, or suppression of existing fast healing/regeneration remain explicitly manual in v0.1.0 rather than being approximated incorrectly.
+Critical Forge card schema v1 stores one category per card, so each semantic outcome is mirrored internally for weapon attacks and spell attacks. The two completed decks therefore contain 120 internal card definitions representing 60 distinct outcomes.
 
-The other two packs remain registered but empty for the next content passes.
+Every result requires the relevant attacker or target to have the `undead` trait. Additional filters distinguish corporeal, mindless, incorporeal, intelligent, and living-target situations where appropriate.
+
+Most standard mechanical consequences use Critical Forge's Effect Engine directly. Effects that require target-specific predicates, reaction suppression, Step suppression, immediate movement, or similar behavior remain manual where automatic execution would otherwise be inaccurate.
+
+**Critical Hits against Undead** remains registered but is reserved for the next content pass, planned for v0.3.0.
+
+See [CHANGELOG.md](CHANGELOG.md) for release history and the next planned expansion.
 
 ## Requirements
 

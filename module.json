@@ -2,9 +2,11 @@
   "id": "pf2e-critical-forge-undead-horrors",
   "title": "PF2E Critical Forge: Undead Horrors",
   "description": "Undead-themed critical hit and critical fumble card packs for PF2E Critical Forge.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "authors": [
-    { "name": "crypto-vbrthr" }
+    {
+      "name": "crypto-vbrthr"
+    }
   ],
   "compatibility": {
     "minimum": "14",
@@ -30,10 +32,20 @@
       }
     ]
   },
-  "esmodules": ["scripts/main.js"],
+  "esmodules": [
+    "scripts/main.js"
+  ],
   "languages": [
-    { "lang": "de", "name": "Deutsch", "path": "lang/de.json" },
-    { "lang": "en", "name": "English", "path": "lang/en.json" }
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
   ],
   "license": "LICENSE",
   "readme": "README.md"

@@ -183,6 +183,158 @@
           "Description": "Death clings to the wound. Until the end of its next turn, the living target can't benefit from fast healing or regeneration.",
           "EffectName": "Cold Hand of the Beyond"
         }
+      },
+      "UndeadCriticalFumbles": {
+        "LooseBones": {
+          "Title": "Loose Bones",
+          "Description": "Something in the undead frame slips out of place. The undead is clumsy 1 until the end of its next turn.",
+          "EffectName": "Loose Bones"
+        },
+        "RottenJoint": {
+          "Title": "Rotten Joint",
+          "Description": "A decayed joint buckles under the failed motion. The undead takes a 10-foot status penalty to all Speeds until the end of its next turn.",
+          "EffectName": "Rotten Joint"
+        },
+        "OverextendedCorpse": {
+          "Title": "Overextended Corpse",
+          "Description": "The dead body follows its own failed momentum too far. The undead is off-guard until the beginning of its next turn.",
+          "EffectName": "Overextended Corpse"
+        },
+        "CrackedFrame": {
+          "Title": "Cracked Frame",
+          "Description": "The fumble leaves the corporeal shell badly aligned. The undead takes a -1 status penalty to AC until the beginning of its next turn.",
+          "EffectName": "Cracked Frame"
+        },
+        "DeadWeight": {
+          "Title": "Dead Weight",
+          "Description": "Its own lifeless mass works against the undead. It takes a -1 status penalty to attack rolls until the end of its next turn.",
+          "EffectName": "Dead Weight"
+        },
+        "UnsteadyRemains": {
+          "Title": "Unsteady Remains",
+          "Description": "The remains wobble and fail to answer cleanly. The undead takes a -1 status penalty to Reflex saves until the end of its next turn.",
+          "EffectName": "Unsteady Remains"
+        },
+        "AnimatingForceFalters": {
+          "Title": "Animating Force Falters",
+          "Description": "The force driving the dead body stutters. The undead is enfeebled 1 until the end of its next turn.",
+          "EffectName": "Animating Force Falters"
+        },
+        "NecromanticMisfire": {
+          "Title": "Necromantic Misfire",
+          "Description": "Necromantic energy recoils through the undead's pattern. The undead is stupefied 1 until the end of its next turn.",
+          "EffectName": "Necromantic Misfire"
+        },
+        "GraveEnergyLeak": {
+          "Title": "Grave Energy Leak",
+          "Description": "The fumble tears open the power holding the corpse or spirit together. The undead gains weakness 2 to vitality damage until the beginning of its next turn.",
+          "EffectName": "Grave Energy Leak"
+        },
+        "ExposedAnimation": {
+          "Title": "Exposed Animation",
+          "Description": "The undead's animating force is briefly exposed. The next damaging hit against it before the beginning of its next turn deals 2 additional vitality damage.",
+          "EffectName": "Exposed Animation"
+        },
+        "WrongWayAround": {
+          "Title": "Wrong Way Around",
+          "Description": "A limb, weapon, or entire posture ends up pointed the wrong way. Until the beginning of its next turn, the corporeal undead can't use reactions.",
+          "EffectName": "Wrong Way Around"
+        },
+        "CollapsedPosture": {
+          "Title": "Collapsed Posture",
+          "Description": "The undead's posture folds in on itself. It takes a -1 status penalty to Athletics and Acrobatics until the end of its next turn.",
+          "EffectName": "Collapsed Posture"
+        },
+        "DraggingLimb": {
+          "Title": "Dragging Limb",
+          "Description": "A leg or comparable support drags uselessly for a moment. The corporeal undead can't Step until the end of its next turn.",
+          "EffectName": "Dragging Limb"
+        },
+        "PartsEverywhere": {
+          "Title": "Parts Everywhere",
+          "Description": "Loose pieces, straps, fingers, or fragments scatter at the worst possible moment. Until the end of its next turn, the corporeal undead takes a -1 circumstance penalty to checks made as part of manipulate actions.",
+          "EffectName": "Parts Everywhere"
+        },
+        "GraveDust": {
+          "Title": "Grave Dust",
+          "Description": "Dust, rot, ectoplasm, or grave debris clouds the undead's awareness. It takes a -1 status penalty to Perception until the end of its next turn.",
+          "EffectName": "Grave Dust"
+        },
+        "TwistedAnatomy": {
+          "Title": "Twisted Anatomy",
+          "Description": "The failed attack leaves the body in an impossible fighting posture. The corporeal undead takes a -1 status penalty to melee attack rolls until the end of its next turn.",
+          "EffectName": "Twisted Anatomy"
+        },
+        "BodyRemembersDeath": {
+          "Title": "The Body Remembers Death",
+          "Description": "For a moment the corpse becomes what it truly is: dead weight. The corporeal undead takes a -1 status penalty to Fortitude saves until the end of its next turn.",
+          "EffectName": "The Body Remembers Death"
+        },
+        "UnlivingImbalance": {
+          "Title": "Unliving Imbalance",
+          "Description": "The failed motion leaves the corporeal undead easy to shove, trip, or otherwise physically unbalance. It takes a -1 circumstance penalty to relevant defenses and checks until the end of its next turn.",
+          "EffectName": "Unliving Imbalance"
+        },
+        "HungerWithoutControl": {
+          "Title": "Hunger Without Control",
+          "Description": "Frustration strips away the intelligent undead's discipline. It is off-guard against the creature it fumbled against until the beginning of its next turn.",
+          "EffectName": "Hunger Without Control"
+        },
+        "PredatorsFrustration": {
+          "Title": "Predator's Frustration",
+          "Description": "The intelligent undead fixates on its failure. It takes a -1 circumstance penalty to attacks against the creature it fumbled against until the end of its next turn.",
+          "EffectName": "Predator's Frustration"
+        },
+        "MomentOfRecognition": {
+          "Title": "Moment of Recognition",
+          "Description": "For one impossible instant, the intelligent undead remembers being something else. It is stupefied 1 until the end of its next turn.",
+          "EffectName": "Moment of Recognition"
+        },
+        "RageAgainstTheLiving": {
+          "Title": "Rage Against the Living",
+          "Description": "Failure turns discipline into murderous fury. Until the beginning of its next turn, the intelligent undead takes a -1 circumstance penalty to AC; until the end of that turn, it deals 1 additional damage to the creature it fumbled against.",
+          "EffectName": "Rage Against the Living"
+        },
+        "MindlessConfusion": {
+          "Title": "Mindless Confusion",
+          "Description": "The mindless animation loses its simple rhythm. Until the beginning of its next turn, the undead takes a -1 circumstance penalty to AC and can't use reactions.",
+          "EffectName": "Mindless Confusion"
+        },
+        "UnthinkingLurch": {
+          "Title": "Unthinking Lurch",
+          "Description": "The broken command sends the mindless dead stumbling 5 feet in a random safe direction, if such movement is possible without entering an obvious hazard.",
+          "EffectName": "Unthinking Lurch"
+        },
+        "BrokenCommand": {
+          "Title": "Broken Command",
+          "Description": "The simple directive animating the corpse skips a beat. The mindless undead takes a -1 status penalty to Perception until the end of its next turn and a -1 circumstance penalty to its next attack before then.",
+          "EffectName": "Broken Command"
+        },
+        "UnstableManifestation": {
+          "Title": "Unstable Manifestation",
+          "Description": "The incorporeal form ripples and loses its shape. The undead is clumsy 1 until the end of its next turn.",
+          "EffectName": "Unstable Manifestation"
+        },
+        "FadingPresence": {
+          "Title": "Fading Presence",
+          "Description": "The apparition's presence flickers at the edge of reality. It takes a -1 status penalty to AC until the beginning of its next turn.",
+          "EffectName": "Fading Presence"
+        },
+        "OutOfPhase": {
+          "Title": "Out of Phase",
+          "Description": "The spirit slips a fraction too far from the world. Until the beginning of its next turn, the incorporeal undead can't use reactions.",
+          "EffectName": "Out of Phase"
+        },
+        "SpiritualFeedback": {
+          "Title": "Spiritual Feedback",
+          "Description": "The failed attack reverberates through the apparition's own essence. It takes a -1 status penalty to Will saves until the end of its next turn.",
+          "EffectName": "Spiritual Feedback"
+        },
+        "DeathComesApart": {
+          "Title": "Death Comes Apart",
+          "Description": "For a grotesque instant the dead body simply stops being a coherent body. The corporeal undead is clumsy 1 until the end of its next turn; the exact collapse is narrative and leaves no permanent injury.",
+          "EffectName": "Death Comes Apart"
+        }
       }
     }
   }

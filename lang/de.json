@@ -183,6 +183,158 @@
           "Description": "Der Tod klammert sich an die Wunde. Bis zum Ende seines nächsten Zuges kann das lebende Ziel weder Schnelle Heilung noch Regeneration nutzen.",
           "EffectName": "Kalte Hand des Jenseits"
         }
+      },
+      "UndeadCriticalFumbles": {
+        "LooseBones": {
+          "Title": "Lockere Knochen",
+          "Description": "Etwas im untoten Gerüst rutscht aus seiner Position. Der Untote ist bis zum Ende seines nächsten Zuges unbeholfen 1.",
+          "EffectName": "Lockere Knochen"
+        },
+        "RottenJoint": {
+          "Title": "Verfaultes Gelenk",
+          "Description": "Ein verfaultes Gelenk gibt unter der misslungenen Bewegung nach. Der Untote erhält bis zum Ende seines nächsten Zuges einen Statusmalus von 3 m auf alle Bewegungsraten.",
+          "EffectName": "Verfaultes Gelenk"
+        },
+        "OverextendedCorpse": {
+          "Title": "Überschwingender Leichnam",
+          "Description": "Der tote Körper folgt seinem misslungenen Schwung viel zu weit. Der Untote ist bis zum Beginn seines nächsten Zuges auf dem falschen Fuß.",
+          "EffectName": "Überschwingender Leichnam"
+        },
+        "CrackedFrame": {
+          "Title": "Geborstenes Gerüst",
+          "Description": "Der Patzer bringt die körperliche Hülle aus dem Gleichgewicht. Der Untote erhält bis zum Beginn seines nächsten Zuges einen Statusmalus von -1 auf RK.",
+          "EffectName": "Geborstenes Gerüst"
+        },
+        "DeadWeight": {
+          "Title": "Totes Gewicht",
+          "Description": "Die eigene leblose Masse arbeitet gegen den Untoten. Er erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Angriffswürfe.",
+          "EffectName": "Totes Gewicht"
+        },
+        "UnsteadyRemains": {
+          "Title": "Wankende Überreste",
+          "Description": "Die Überreste schwanken und reagieren nicht mehr sauber. Der Untote erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Reflexwürfe.",
+          "EffectName": "Wankende Überreste"
+        },
+        "AnimatingForceFalters": {
+          "Title": "Stockende Belebungskraft",
+          "Description": "Die Macht, die den Toten antreibt, gerät ins Stocken. Der Untote ist bis zum Ende seines nächsten Zuges geschwächt 1.",
+          "EffectName": "Stockende Belebungskraft"
+        },
+        "NecromanticMisfire": {
+          "Title": "Nekromantische Fehlzündung",
+          "Description": "Nekromantische Energie schlägt in das Muster des Untoten zurück. Der Untote ist bis zum Ende seines nächsten Zuges benommen 1.",
+          "EffectName": "Nekromantische Fehlzündung"
+        },
+        "GraveEnergyLeak": {
+          "Title": "Leckende Grabesenergie",
+          "Description": "Der Patzer reißt die Macht auf, die Leichnam oder Geist zusammenhält. Der Untote erhält bis zum Beginn seines nächsten Zuges Schwäche 2 gegen Lebensschaden.",
+          "EffectName": "Leckende Grabesenergie"
+        },
+        "ExposedAnimation": {
+          "Title": "Freigelegte Belebung",
+          "Description": "Die belebende Kraft des Untoten liegt für einen Moment offen. Der nächste Treffer, der ihm vor Beginn seines nächsten Zuges Schaden zufügt, verursacht zusätzlich 2 Punkte Lebensschaden.",
+          "EffectName": "Freigelegte Belebung"
+        },
+        "WrongWayAround": {
+          "Title": "Falsch herum",
+          "Description": "Ein Gliedmaß, eine Waffe oder gleich die ganze Haltung zeigt plötzlich in die falsche Richtung. Bis zum Beginn seines nächsten Zuges kann der körperliche Untote keine Reaktionen einsetzen.",
+          "EffectName": "Falsch herum"
+        },
+        "CollapsedPosture": {
+          "Title": "Eingebrochene Haltung",
+          "Description": "Die Haltung des Untoten fällt in sich zusammen. Er erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Athletik und Akrobatik.",
+          "EffectName": "Eingebrochene Haltung"
+        },
+        "DraggingLimb": {
+          "Title": "Schleifendes Gliedmaß",
+          "Description": "Ein Bein oder eine vergleichbare Stütze schleift für einen Moment nutzlos hinterher. Der körperliche Untote kann bis zum Ende seines nächsten Zuges keinen Schritt einsetzen.",
+          "EffectName": "Schleifendes Gliedmaß"
+        },
+        "PartsEverywhere": {
+          "Title": "Überall Einzelteile",
+          "Description": "Lose Teile, Riemen, Finger oder Fragmente verteilen sich im denkbar schlechtesten Moment. Der körperliche Untote erhält bis zum Ende seines nächsten Zuges einen Situationsmalus von -1 auf Würfe im Rahmen von Handlungen mit dem Merkmal Manipulieren.",
+          "EffectName": "Überall Einzelteile"
+        },
+        "GraveDust": {
+          "Title": "Grabesstaub",
+          "Description": "Staub, Fäulnis, Ektoplasma oder Graberde trüben die Wahrnehmung des Untoten. Er erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Wahrnehmung.",
+          "EffectName": "Grabesstaub"
+        },
+        "TwistedAnatomy": {
+          "Title": "Verdrehte Anatomie",
+          "Description": "Der misslungene Angriff lässt den Körper in einer unmöglichen Kampfhaltung zurück. Der körperliche Untote erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Nahkampfangriffe.",
+          "EffectName": "Verdrehte Anatomie"
+        },
+        "BodyRemembersDeath": {
+          "Title": "Der Körper erinnert sich an den Tod",
+          "Description": "Für einen Moment wird der Leichnam wieder zu dem, was er eigentlich ist: totes Gewicht. Der körperliche Untote erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Zähigkeitswürfe.",
+          "EffectName": "Der Körper erinnert sich an den Tod"
+        },
+        "UnlivingImbalance": {
+          "Title": "Untotes Ungleichgewicht",
+          "Description": "Die misslungene Bewegung macht den körperlichen Untoten besonders leicht zu Schubsen, Zu-Fall-Bringen oder anderweitig aus dem Gleichgewicht zu bringen. Er erhält bis zum Ende seines nächsten Zuges einen Situationsmalus von -1 auf dafür relevante Verteidigungen und Würfe.",
+          "EffectName": "Untotes Ungleichgewicht"
+        },
+        "HungerWithoutControl": {
+          "Title": "Hunger außer Kontrolle",
+          "Description": "Frustration zerreißt die Disziplin des intelligenten Untoten. Bis zum Beginn seines nächsten Zuges ist er gegenüber der Kreatur, gegen die er gepatzt hat, auf dem falschen Fuß.",
+          "EffectName": "Hunger außer Kontrolle"
+        },
+        "PredatorsFrustration": {
+          "Title": "Frustration des Jägers",
+          "Description": "Der intelligente Untote verbeißt sich in sein Versagen. Er erhält bis zum Ende seines nächsten Zuges einen Situationsmalus von -1 auf Angriffe gegen die Kreatur, gegen die er gepatzt hat.",
+          "EffectName": "Frustration des Jägers"
+        },
+        "MomentOfRecognition": {
+          "Title": "Augenblick des Erkennens",
+          "Description": "Für einen unmöglichen Augenblick erinnert sich der intelligente Untote daran, einmal etwas anderes gewesen zu sein. Er ist bis zum Ende seines nächsten Zuges benommen 1.",
+          "EffectName": "Augenblick des Erkennens"
+        },
+        "RageAgainstTheLiving": {
+          "Title": "Wut auf die Lebenden",
+          "Description": "Das Versagen verwandelt Disziplin in mörderische Wut. Bis zum Beginn seines nächsten Zuges erhält der intelligente Untote einen Situationsmalus von -1 auf RK; bis zum Ende dieses Zuges verursacht er gegen die Kreatur, gegen die er gepatzt hat, 1 zusätzlichen Schadenspunkt.",
+          "EffectName": "Wut auf die Lebenden"
+        },
+        "MindlessConfusion": {
+          "Title": "Geistlose Verwirrung",
+          "Description": "Die primitive Belebung verliert ihren einfachen Rhythmus. Bis zum Beginn seines nächsten Zuges erhält der Untote einen Situationsmalus von -1 auf RK und kann keine Reaktionen einsetzen.",
+          "EffectName": "Geistlose Verwirrung"
+        },
+        "UnthinkingLurch": {
+          "Title": "Gedankenloses Torkeln",
+          "Description": "Der gestörte Befehl lässt den geistlosen Toten 1,5 m in eine zufällige sichere Richtung taumeln, sofern dies möglich ist, ohne ihn in eine offensichtliche Gefahr zu führen.",
+          "EffectName": "Gedankenloses Torkeln"
+        },
+        "BrokenCommand": {
+          "Title": "Gebrochener Befehl",
+          "Description": "Die einfache Anweisung, die den Leichnam antreibt, setzt einen Moment aus. Der geistlose Untote erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Wahrnehmung und bis dahin einen Situationsmalus von -1 auf seinen nächsten Angriff.",
+          "EffectName": "Gebrochener Befehl"
+        },
+        "UnstableManifestation": {
+          "Title": "Instabile Manifestation",
+          "Description": "Die körperlose Gestalt flimmert und verliert ihre Form. Der Untote ist bis zum Ende seines nächsten Zuges unbeholfen 1.",
+          "EffectName": "Instabile Manifestation"
+        },
+        "FadingPresence": {
+          "Title": "Verblassende Präsenz",
+          "Description": "Die Erscheinung flackert am Rand der Wirklichkeit. Sie erhält bis zum Beginn ihres nächsten Zuges einen Statusmalus von -1 auf RK.",
+          "EffectName": "Verblassende Präsenz"
+        },
+        "OutOfPhase": {
+          "Title": "Phasenverschoben",
+          "Description": "Der Geist gleitet einen Hauch zu weit aus der Welt. Bis zum Beginn seines nächsten Zuges kann der körperlose Untote keine Reaktionen einsetzen.",
+          "EffectName": "Phasenverschoben"
+        },
+        "SpiritualFeedback": {
+          "Title": "Spirituelle Rückkopplung",
+          "Description": "Der misslungene Angriff hallt durch die eigene Essenz der Erscheinung zurück. Sie erhält bis zum Ende ihres nächsten Zuges einen Statusmalus von -1 auf Willenswürfe.",
+          "EffectName": "Spirituelle Rückkopplung"
+        },
+        "DeathComesApart": {
+          "Title": "Der Tod fällt auseinander",
+          "Description": "Für einen grotesken Augenblick hört der tote Körper einfach auf, ein zusammenhängender Körper zu sein. Der körperliche Untote ist bis zum Ende seines nächsten Zuges unbeholfen 1; der genaue Zerfall ist rein erzählerisch und hinterlässt keine dauerhafte Verletzung.",
+          "EffectName": "Der Tod fällt auseinander"
+        }
       }
     }
   }

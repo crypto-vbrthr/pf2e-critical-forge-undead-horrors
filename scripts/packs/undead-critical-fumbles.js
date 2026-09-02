@@ -1,4 +1,5 @@
 import { MODULE_VERSION, PACK_IDS } from "../constants.js";
+import { UNDEAD_CRITICAL_FUMBLE_CARDS } from "../cards/undead-critical-fumble-cards.js";
 
 export function createUndeadCriticalFumblesPack({ enabled = true } = {}) {
   return {
@@ -14,8 +15,10 @@ export function createUndeadCriticalFumblesPack({ enabled = true } = {}) {
     metadata: {
       theme: "undead-horrors",
       direction: "source-undead",
-      outcome: "critical-fumble"
+      outcome: "critical-fumble",
+      semanticCardCount: 30,
+      categoryMirroring: ["criticalFumble", "spellCriticalFumble"]
     },
-    decks: { attack: [] }
+    decks: { attack: UNDEAD_CRITICAL_FUMBLE_CARDS }
   };
 }

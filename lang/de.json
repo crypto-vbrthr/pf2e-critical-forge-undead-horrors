@@ -30,6 +30,160 @@
     },
     "Errors": {
       "RegistrationFailed": "Undead Horrors konnte seine Kartenpakete nicht bei PF2E Critical Forge registrieren."
+    },
+    "Cards": {
+      "UndeadCriticalHits": {
+        "GraveChill": {
+          "Title": "Grabeskälte",
+          "Description": "Grabeskalte Macht dringt in das Opfer. Das Ziel erhält bis zum Ende seines nächsten Zuges einen Statusmalus von 3 m auf alle Bewegungsraten.",
+          "EffectName": "Grabeskälte"
+        },
+        "WitheringBlow": {
+          "Title": "Auszehrender Schlag",
+          "Description": "Der Treffer raubt jeder Bewegung Kraft. Das Ziel ist bis zum Ende seines nächsten Zuges geschwächt 1.",
+          "EffectName": "Auszehrender Schlag"
+        },
+        "NumbingTouch": {
+          "Title": "Betäubende Berührung",
+          "Description": "Tödliche Taubheit kriecht durch Muskeln und Nerven. Das Ziel ist bis zum Ende seines nächsten Zuges unbeholfen 1.",
+          "EffectName": "Betäubende Berührung"
+        },
+        "SoulShaken": {
+          "Title": "Seelenerschütterung",
+          "Description": "Der Treffer streift etwas Tieferes als Fleisch. Das Ziel ist bis zum Ende seines nächsten Zuges benommen 1.",
+          "EffectName": "Seelenerschütterung"
+        },
+        "FaceOfDeath": {
+          "Title": "Antlitz des Todes",
+          "Description": "Für einen entsetzlichen Herzschlag blickt das Opfer dem Tod direkt ins Gesicht. Das Ziel erhält verängstigt 1.",
+          "EffectName": "Antlitz des Todes"
+        },
+        "DeathlyOpening": {
+          "Title": "Tödliche Lücke",
+          "Description": "Die unnatürliche Wucht reißt eine Lücke in die Verteidigung. Das Ziel ist bis zum Ende seines nächsten Zuges auf dem falschen Fuß.",
+          "EffectName": "Tödliche Lücke"
+        },
+        "FrozenReflexes": {
+          "Title": "Gefrorene Reflexe",
+          "Description": "Die Reaktionen des Ziels werden kalt und träge. Es erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Reflexwürfe.",
+          "EffectName": "Gefrorene Reflexe"
+        },
+        "StrengthOfTheGrave": {
+          "Title": "Kraft des Grabes",
+          "Description": "Der kritische Treffer nährt die Macht, die den Toten antreibt. Der untote Angreifer erhält für 1 Runde 4 temporäre Trefferpunkte.",
+          "EffectName": "Kraft des Grabes"
+        },
+        "UnnaturalMomentum": {
+          "Title": "Unnatürlicher Schwung",
+          "Description": "Der Tote geht ohne Zögern in den nächsten Angriff über. Er erhält für 1 Runde einen Situationsbonus von +1 auf Angriffswürfe.",
+          "EffectName": "Unnatürlicher Schwung"
+        },
+        "GraspOfTheDead": {
+          "Title": "Griff der Toten",
+          "Description": "Die Instinkte des Opfers erstarren unter der Berührung des Todes. Bis zum Beginn seines nächsten Zuges kann das Ziel keine Reaktionen einsetzen.",
+          "EffectName": "Griff der Toten"
+        },
+        "NecroticWound": {
+          "Title": "Nekrotische Wunde",
+          "Description": "Die Wunde verdunkelt sich sofort, während Leerenenergie am lebenden Gewebe nagt. Das Ziel erleidet 1W4 anhaltenden Leerschaden.",
+          "EffectName": "Nekrotische Wunde"
+        },
+        "WitheredConstitution": {
+          "Title": "Ausgezehrte Konstitution",
+          "Description": "Die Lebenskraft des Ziels flackert. Es erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Zähigkeitswürfe.",
+          "EffectName": "Ausgezehrte Konstitution"
+        },
+        "DeathsPall": {
+          "Title": "Schleier des Todes",
+          "Description": "Die Verteidigung des Ziels bricht speziell gegen den untoten Angreifer ein. Bis der Untote seinen nächsten Zug beendet, erhält das Ziel gegen ihn einen Statusmalus von -1 auf RK.",
+          "EffectName": "Schleier des Todes"
+        },
+        "TheGraveHungers": {
+          "Title": "Das Grab hungert",
+          "Description": "Ein Splitter geraubter Lebenskraft haftet am Angreifer. Gegen ein lebendes Ziel erhält der Untote für 1 Runde 3 temporäre Trefferpunkte.",
+          "EffectName": "Das Grab hungert"
+        },
+        "DeathsWeight": {
+          "Title": "Gewicht des Todes",
+          "Description": "Der Treffer raubt dem Opfer die kontrollierte Beinarbeit. Bis zum Ende seines nächsten Zuges kann es keinen Schritt einsetzen.",
+          "EffectName": "Gewicht des Todes"
+        },
+        "DeadeningBlow": {
+          "Title": "Abstumpfender Treffer",
+          "Description": "Die Welt wirkt plötzlich gedämpft und fern. Das Ziel erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Wahrnehmung.",
+          "EffectName": "Abstumpfender Treffer"
+        },
+        "RottingPain": {
+          "Title": "Faulender Schmerz",
+          "Description": "Die Verletzung lässt jede kraftvolle oder präzise Bewegung revoltieren. Das Ziel erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf stärke- und geschicklichkeitsbasierte Würfe.",
+          "EffectName": "Faulender Schmerz"
+        },
+        "GravesEmbrace": {
+          "Title": "Umarmung des Grabes",
+          "Description": "Das Ziel bewegt sich, als hielte das Grab selbst es fest. Es erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Athletik und Akrobatik.",
+          "EffectName": "Umarmung des Grabes"
+        },
+        "UnholyPersistence": {
+          "Title": "Unheilige Beharrlichkeit",
+          "Description": "Die gelungene Gewalt stärkt die unnatürliche Beharrlichkeit des Untoten. Er erhält für 1 Runde einen Statusbonus von +1 auf Rettungswürfe.",
+          "EffectName": "Unheilige Beharrlichkeit"
+        },
+        "DeathDoesNotTire": {
+          "Title": "Der Tod ermüdet nicht",
+          "Description": "Bis zum Beginn seines nächsten Zuges ignoriert der Untote den ersten Statusmalus von -1, der auf einen seiner Angriffswürfe wirken würde.",
+          "EffectName": "Der Tod ermüdet nicht"
+        },
+        "WhispersBeyondTheVeil": {
+          "Title": "Flüstern jenseits des Schleiers",
+          "Description": "Stimmen von jenseits des Todes drängen sich in die Gedanken des Opfers. Das Ziel erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Willenswürfe.",
+          "EffectName": "Flüstern jenseits des Schleiers"
+        },
+        "MomentOfMortality": {
+          "Title": "Augenblick der Sterblichkeit",
+          "Description": "Der lebende Körper bäumt sich gegen die unmittelbare Nähe des Todes auf. Das Ziel erhält kränkelnd 1.",
+          "EffectName": "Augenblick der Sterblichkeit"
+        },
+        "PredatorOfTheLiving": {
+          "Title": "Jäger der Lebenden",
+          "Description": "Der intelligente Untote erkennt den Rhythmus seines Opfers. Vor Ende seines nächsten Zuges erhält er einen Situationsbonus von +1 auf seinen nächsten Angriff gegen genau dieses Ziel.",
+          "EffectName": "Jäger der Lebenden"
+        },
+        "CruelSatisfaction": {
+          "Title": "Grausame Genugtuung",
+          "Description": "Der intelligente Untote kostet die Lücke aus. Bis zum Ende seines nächsten Zuges erhält er einen Statusbonus von +1 auf Schaden gegen das kritisch getroffene Ziel.",
+          "EffectName": "Grausame Genugtuung"
+        },
+        "MindlessOnslaught": {
+          "Title": "Geistloser Ansturm",
+          "Description": "Der geistlose Tote stürzt ohne Rücksicht auf die eigene Verteidigung vor. Für 1 Runde erhält er einen Situationsbonus von +1 auf Nahkampfangriffe und einen Situationsmalus von -1 auf RK.",
+          "EffectName": "Geistloser Ansturm"
+        },
+        "UnthinkingAdvance": {
+          "Title": "Gedankenloses Vorrücken",
+          "Description": "Nur vom nächsten Aufprall getrieben bewegt sich der geistlose Untote sofort 1,5 m auf das Ziel zu, sofern dies gefahrlos möglich ist und keine Reaktion auslöst.",
+          "EffectName": "Gedankenloses Vorrücken"
+        },
+        "SpectralShock": {
+          "Title": "Spektraler Schock",
+          "Description": "Der körperlose Angreifer streift die Gedanken selbst. Das Ziel ist bis zum Ende seines nächsten Zuges benommen 1.",
+          "EffectName": "Spektraler Schock"
+        },
+        "ThroughFleshAndSoul": {
+          "Title": "Durch Fleisch und Seele",
+          "Description": "Die Erscheinung schneidet zugleich durch Körper und Geist. Das Ziel erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Willenswürfe und kann bis zum Beginn dieses Zuges keine Reaktionen einsetzen.",
+          "EffectName": "Durch Fleisch und Seele"
+        },
+        "UnmooredSpirit": {
+          "Title": "Losgelöster Geist",
+          "Description": "Körper und Geist geraten kurz aus dem Takt. Bis zum Beginn seines nächsten Zuges ist das Ziel auf dem falschen Fuß und erhält einen Statusmalus von -1 auf Reflexwürfe.",
+          "EffectName": "Losgelöster Geist"
+        },
+        "ColdHandOfTheBeyond": {
+          "Title": "Kalte Hand des Jenseits",
+          "Description": "Der Tod klammert sich an die Wunde. Bis zum Ende seines nächsten Zuges kann das lebende Ziel weder Schnelle Heilung noch Regeneration nutzen.",
+          "EffectName": "Kalte Hand des Jenseits"
+        }
+      }
     }
   }
 }

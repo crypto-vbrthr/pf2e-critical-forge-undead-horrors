@@ -73,8 +73,8 @@ test("registers three protected extension packs with independent enabled states"
   assert.equal(replace, true);
   assert.equal(registered.length, 3);
   assert.deepEqual(registered.map((pack) => pack.enabled), [true, false, true]);
-  assert.deepEqual(registered.map((pack) => pack.decks), [
-    { attack: [] },
+  assert.equal(registered[0].decks.attack.length, 60);
+  assert.deepEqual(registered.slice(1).map((pack) => pack.decks), [
     { attack: [] },
     { attack: [] }
   ]);

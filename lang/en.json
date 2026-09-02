@@ -30,6 +30,160 @@
     },
     "Errors": {
       "RegistrationFailed": "Undead Horrors could not register its card packs with PF2E Critical Forge."
+    },
+    "Cards": {
+      "UndeadCriticalHits": {
+        "GraveChill": {
+          "Title": "Grave Chill",
+          "Description": "Grave-cold power seeps into the victim. The target takes a 10-foot status penalty to all Speeds until the end of its next turn.",
+          "EffectName": "Grave Chill"
+        },
+        "WitheringBlow": {
+          "Title": "Withering Blow",
+          "Description": "The strike drains strength from living motion. The target is enfeebled 1 until the end of its next turn.",
+          "EffectName": "Withering Blow"
+        },
+        "NumbingTouch": {
+          "Title": "Numbing Touch",
+          "Description": "Deathly numbness crawls through muscle and nerve. The target is clumsy 1 until the end of its next turn.",
+          "EffectName": "Numbing Touch"
+        },
+        "SoulShaken": {
+          "Title": "Soul-Shaken",
+          "Description": "The blow brushes something deeper than flesh. The target is stupefied 1 until the end of its next turn.",
+          "EffectName": "Soul-Shaken"
+        },
+        "FaceOfDeath": {
+          "Title": "Face of Death",
+          "Description": "For one terrible heartbeat, the victim sees death staring back. The target becomes frightened 1.",
+          "EffectName": "Face of Death"
+        },
+        "DeathlyOpening": {
+          "Title": "Deathly Opening",
+          "Description": "The unnatural impact tears open the target's guard. The target is off-guard until the end of its next turn.",
+          "EffectName": "Deathly Opening"
+        },
+        "FrozenReflexes": {
+          "Title": "Frozen Reflexes",
+          "Description": "The target's reactions turn sluggish and cold. It takes a -1 status penalty to Reflex saves until the end of its next turn.",
+          "EffectName": "Frozen Reflexes"
+        },
+        "StrengthOfTheGrave": {
+          "Title": "Strength of the Grave",
+          "Description": "The critical hit feeds the force animating the dead. The undead attacker gains 4 temporary Hit Points for 1 round.",
+          "EffectName": "Strength of the Grave"
+        },
+        "UnnaturalMomentum": {
+          "Title": "Unnatural Momentum",
+          "Description": "The dead attacker flows straight into its next assault. It gains a +1 circumstance bonus to attack rolls for 1 round.",
+          "EffectName": "Unnatural Momentum"
+        },
+        "GraspOfTheDead": {
+          "Title": "Grasp of the Dead",
+          "Description": "The victim's instincts freeze under the touch of death. Until the beginning of its next turn, the target can't use reactions.",
+          "EffectName": "Grasp of the Dead"
+        },
+        "NecroticWound": {
+          "Title": "Necrotic Wound",
+          "Description": "The wound darkens at once as void energy gnaws at living tissue. The target takes 1d4 persistent void damage.",
+          "EffectName": "Necrotic Wound"
+        },
+        "WitheredConstitution": {
+          "Title": "Withered Constitution",
+          "Description": "The target's vitality gutters. It takes a -1 status penalty to Fortitude saves until the end of its next turn.",
+          "EffectName": "Withered Constitution"
+        },
+        "DeathsPall": {
+          "Title": "Death's Pall",
+          "Description": "The target's guard falters specifically against the undead attacker. Until the undead finishes its next turn, the target takes a -1 status penalty to AC against that attacker.",
+          "EffectName": "Death's Pall"
+        },
+        "TheGraveHungers": {
+          "Title": "The Grave Hungers",
+          "Description": "A fragment of stolen vitality clings to the attacker. Against a living target, the undead gains 3 temporary Hit Points for 1 round.",
+          "EffectName": "The Grave Hungers"
+        },
+        "DeathsWeight": {
+          "Title": "Death's Weight",
+          "Description": "The blow leaves the victim unable to make the careful footwork of a Step until the end of its next turn.",
+          "EffectName": "Death's Weight"
+        },
+        "DeadeningBlow": {
+          "Title": "Deadening Blow",
+          "Description": "The world seems muffled and distant. The target takes a -1 status penalty to Perception until the end of its next turn.",
+          "EffectName": "Deadening Blow"
+        },
+        "RottingPain": {
+          "Title": "Rotting Pain",
+          "Description": "The injury makes every forceful or precise motion revolt. The target takes a -1 status penalty to Strength- and Dexterity-based checks until the end of its next turn.",
+          "EffectName": "Rotting Pain"
+        },
+        "GravesEmbrace": {
+          "Title": "Grave's Embrace",
+          "Description": "The target moves as if the grave itself were holding on. It takes a -1 status penalty to Athletics and Acrobatics until the end of its next turn.",
+          "EffectName": "Grave's Embrace"
+        },
+        "UnholyPersistence": {
+          "Title": "Unholy Persistence",
+          "Description": "The successful violence reinforces the undead's unnatural persistence. It gains a +1 status bonus to saving throws for 1 round.",
+          "EffectName": "Unholy Persistence"
+        },
+        "DeathDoesNotTire": {
+          "Title": "Death Does Not Tire",
+          "Description": "Until the beginning of its next turn, the undead ignores the first -1 status penalty that would apply to one of its attack rolls.",
+          "EffectName": "Death Does Not Tire"
+        },
+        "WhispersBeyondTheVeil": {
+          "Title": "Whispers Beyond the Veil",
+          "Description": "Voices from somewhere beyond death crowd the victim's thoughts. The target takes a -1 status penalty to Will saves until the end of its next turn.",
+          "EffectName": "Whispers Beyond the Veil"
+        },
+        "MomentOfMortality": {
+          "Title": "Moment of Mortality",
+          "Description": "The living body recoils from intimate contact with death. The target becomes sickened 1.",
+          "EffectName": "Moment of Mortality"
+        },
+        "PredatorOfTheLiving": {
+          "Title": "Predator of the Living",
+          "Description": "The intelligent undead learns the victim's rhythm. It gains a +1 circumstance bonus to its next attack against that same target before the end of its next turn.",
+          "EffectName": "Predator of the Living"
+        },
+        "CruelSatisfaction": {
+          "Title": "Cruel Satisfaction",
+          "Description": "The intelligent undead savors the opening. Until the end of its next turn, it gains a +1 status bonus to damage against the creature it critically hit.",
+          "EffectName": "Cruel Satisfaction"
+        },
+        "MindlessOnslaught": {
+          "Title": "Mindless Onslaught",
+          "Description": "The mindless dead lunges on without concern for defense. For 1 round it gains a +1 circumstance bonus to melee attack rolls and takes a -1 circumstance penalty to AC.",
+          "EffectName": "Mindless Onslaught"
+        },
+        "UnthinkingAdvance": {
+          "Title": "Unthinking Advance",
+          "Description": "Driven only by the next impact, the mindless undead immediately moves 5 feet toward the target if it can do so safely and without triggering a reaction.",
+          "EffectName": "Unthinking Advance"
+        },
+        "SpectralShock": {
+          "Title": "Spectral Shock",
+          "Description": "The incorporeal attacker passes too close to thought itself. The target is stupefied 1 until the end of its next turn.",
+          "EffectName": "Spectral Shock"
+        },
+        "ThroughFleshAndSoul": {
+          "Title": "Through Flesh and Soul",
+          "Description": "The apparition cuts through body and spirit at once. The target takes a -1 status penalty to Will saves until the end of its next turn and can't use reactions until the beginning of that turn.",
+          "EffectName": "Through Flesh and Soul"
+        },
+        "UnmooredSpirit": {
+          "Title": "Unmoored Spirit",
+          "Description": "Body and spirit slip briefly out of alignment. Until the beginning of its next turn, the target is off-guard and takes a -1 status penalty to Reflex saves.",
+          "EffectName": "Unmoored Spirit"
+        },
+        "ColdHandOfTheBeyond": {
+          "Title": "Cold Hand of the Beyond",
+          "Description": "Death clings to the wound. Until the end of its next turn, the living target can't benefit from fast healing or regeneration.",
+          "EffectName": "Cold Hand of the Beyond"
+        }
+      }
     }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "id": "pf2e-critical-forge-undead-horrors",
+  "title": "PF2E Critical Forge: Undead Horrors",
+  "description": "Undead-themed critical hits, critical fumbles, and critical hits against undead for PF2E Critical Forge.",
+  "version": "0.1.0",
+  "authors": [{"name": "crypto-vbrthr"}],
+  "compatibility": {"minimum": "14", "verified": "14"},
+  "relationships": {
+    "requires": [{"id": "pf2e-critical-forge", "type": "module", "compatibility": {"minimum": "1.0.1-rc.6.1"}}],
+    "systems": [{"id": "pf2e", "type": "system", "compatibility": {"minimum": "8.1.2"}}]
+  },
+  "esmodules": ["scripts/main.js"],
+  "languages": [
+    {"lang": "de", "name": "Deutsch", "path": "lang/de.json"},
+    {"lang": "en", "name": "English", "path": "lang/en.json"}
+  ]
+}

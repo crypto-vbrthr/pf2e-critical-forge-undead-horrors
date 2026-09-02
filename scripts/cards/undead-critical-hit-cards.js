@@ -180,9 +180,9 @@ const CONCEPTS = [
   },
   {
     slug: "spectral-shock", key: "SpectralShock", tone: "dramatic", impact: "moderate",
-    title: "Spectral Shock", description: "The incorporeal attacker passes too close to thought itself. The target is stupefied 1 until the end of its next turn.",
-    tags: ["incorporeal", "spirit", "debuff"], filters: { sourceTraits: ["incorporeal"] },
-    effect: targetEffect("Spectral Shock", ONE_ROUND_END, [condition("stupefied", 1)])
+    title: "Spectral Shock", description: "The incorporeal attacker distorts the victim's senses as it passes through the edge of reality. The target is dazzled until the end of its next turn.",
+    tags: ["incorporeal", "spirit", "senses", "debuff"], filters: { sourceTraits: ["incorporeal"] },
+    effect: targetEffect("Spectral Shock", ONE_ROUND_END, [condition("dazzled")])
   },
   {
     slug: "through-flesh-and-soul", key: "ThroughFleshAndSoul", tone: "dramatic", impact: "strong",

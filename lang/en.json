@@ -165,7 +165,7 @@
         },
         "SpectralShock": {
           "Title": "Spectral Shock",
-          "Description": "The incorporeal attacker passes too close to thought itself. The target is stupefied 1 until the end of its next turn.",
+          "Description": "The incorporeal attacker distorts the victim's senses as it passes through the edge of reality. The target is dazzled until the end of its next turn.",
           "EffectName": "Spectral Shock"
         },
         "ThroughFleshAndSoul": {
@@ -332,7 +332,7 @@
         },
         "DeathComesApart": {
           "Title": "Death Comes Apart",
-          "Description": "For a grotesque instant the dead body simply stops being a coherent body. The corporeal undead is clumsy 1 until the end of its next turn; the exact collapse is narrative and leaves no permanent injury.",
+          "Description": "For a grotesque instant the dead body simply stops being a coherent body and collapses. The corporeal undead is prone; the exact collapse is narrative and leaves no permanent injury.",
           "EffectName": "Death Comes Apart"
         }
       },
@@ -434,7 +434,7 @@
         },
         "StructuralCollapse": {
           "Title": "Structural Collapse",
-          "Description": "The bludgeoning critical buckles the undead's physical structure. Until the beginning of its next turn, the corporeal undead is off-guard against the creature that critically hit it.",
+          "Description": "The bludgeoning critical buckles the undead's physical structure and sends it crashing down. The corporeal undead is prone.",
           "EffectName": "Structural Collapse"
         },
         "PredatorBecomesPrey": {

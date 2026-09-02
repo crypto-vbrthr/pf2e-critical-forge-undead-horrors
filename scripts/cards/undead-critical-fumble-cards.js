@@ -154,7 +154,7 @@ const CONCEPTS = [
   {
     slug: "rage-against-the-living", key: "RageAgainstTheLiving", tone: "dramatic", impact: "moderate",
     title: "Rage Against the Living", description: "Failure turns discipline into murderous fury. Until the beginning of its next turn, the intelligent undead takes a -1 circumstance penalty to AC; until the end of that turn, it deals 1 additional damage to the creature it fumbled against.",
-    tags: ["intelligent", "risk", "manual"], filters: { excludedSourceTraits: ["mindless"] },
+    tags: ["intelligent", "living", "risk"], filters: { excludedSourceTraits: ["mindless"], excludedTargetTraits: ["undead", "construct"] },
     effect: sourceEffect("Rage Against the Living", ONE_ROUND_START, [modifier("ac", -1, "circumstance")]),
     metadata: { automation: "partial", manualRemainder: "The +1 damage applies only against the creature the undead fumbled against until the end of its next turn." }
   },
@@ -204,9 +204,9 @@ const CONCEPTS = [
   },
   {
     slug: "death-comes-apart", key: "DeathComesApart", tone: "dramatic", impact: "moderate",
-    title: "Death Comes Apart", description: "For a grotesque instant the dead body simply stops being a coherent body. The corporeal undead is clumsy 1 until the end of its next turn; the exact collapse is narrative and leaves no permanent injury.",
-    tags: ["corporeal", "collapse", "debuff"], filters: { excludedSourceTraits: ["incorporeal"] },
-    effect: sourceEffect("Death Comes Apart", ONE_ROUND_END, [condition("clumsy", 1)])
+    title: "Death Comes Apart", description: "For a grotesque instant the dead body simply stops being a coherent body and collapses. The corporeal undead is prone; the exact collapse is narrative and leaves no permanent injury.",
+    tags: ["corporeal", "collapse", "control"], filters: { excludedSourceTraits: ["incorporeal"] },
+    effect: sourceEffect("Death Comes Apart", ONE_ROUND_END, [condition("prone")])
   }
 ];
 

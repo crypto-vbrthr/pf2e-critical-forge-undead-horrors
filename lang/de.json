@@ -165,7 +165,7 @@
         },
         "SpectralShock": {
           "Title": "Spektraler Schock",
-          "Description": "Der körperlose Angreifer streift die Gedanken selbst. Das Ziel ist bis zum Ende seines nächsten Zuges benommen 1.",
+          "Description": "Der körperlose Angreifer verzerrt beim Streifen des Randes der Wirklichkeit die Sinne seines Opfers. Das Ziel erhält bis zum Ende seines nächsten Zuges den Zustand Geblendet.",
           "EffectName": "Spektraler Schock"
         },
         "ThroughFleshAndSoul": {
@@ -252,7 +252,7 @@
         },
         "PartsEverywhere": {
           "Title": "Überall Einzelteile",
-          "Description": "Lose Teile, Riemen, Finger oder Fragmente verteilen sich im denkbar schlechtesten Moment. Der körperliche Untote erhält bis zum Ende seines nächsten Zuges einen Situationsmalus von -1 auf Würfe im Rahmen von Handlungen mit dem Merkmal Manipulieren.",
+          "Description": "Lose Teile, Riemen, Finger oder Fragmente verteilen sich im denkbar schlechtesten Moment. Der körperliche Untote erhält bis zum Ende seines nächsten Zuges einen Situationsmalus von -1 auf Würfe im Rahmen von Handlungen der Kategorie Handhaben.",
           "EffectName": "Überall Einzelteile"
         },
         "GraveDust": {
@@ -332,7 +332,7 @@
         },
         "DeathComesApart": {
           "Title": "Der Tod fällt auseinander",
-          "Description": "Für einen grotesken Augenblick hört der tote Körper einfach auf, ein zusammenhängender Körper zu sein. Der körperliche Untote ist bis zum Ende seines nächsten Zuges unbeholfen 1; der genaue Zerfall ist rein erzählerisch und hinterlässt keine dauerhafte Verletzung.",
+          "Description": "Für einen grotesken Augenblick hört der tote Körper einfach auf, ein zusammenhängender Körper zu sein, und bricht zusammen. Der körperliche Untote erhält den Zustand Liegend; der genaue Zerfall ist rein erzählerisch und hinterlässt keine dauerhafte Verletzung.",
           "EffectName": "Der Tod fällt auseinander"
         }
       },
@@ -434,7 +434,7 @@
         },
         "StructuralCollapse": {
           "Title": "Struktureller Zusammenbruch",
-          "Description": "Der kritische Wuchttreffer lässt die körperliche Struktur des Untoten einknicken. Bis zum Beginn seines nächsten Zuges ist der körperliche Untote gegenüber der Kreatur, die ihn kritisch getroffen hat, auf dem falschen Fuß.",
+          "Description": "Der kritische Wuchttreffer lässt die körperliche Struktur des Untoten einknicken und ihn zu Boden stürzen. Der körperliche Untote erhält den Zustand Liegend.",
           "EffectName": "Struktureller Zusammenbruch"
         },
         "PredatorBecomesPrey": {

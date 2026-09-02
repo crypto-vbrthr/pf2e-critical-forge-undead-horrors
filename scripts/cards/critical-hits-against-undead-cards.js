@@ -140,9 +140,9 @@ const CONCEPTS = [
   },
   {
     slug: "structural-collapse", key: "StructuralCollapse", tone: "dramatic", impact: "moderate",
-    title: "Structural Collapse", description: "The bludgeoning critical buckles the undead's physical structure. Until the beginning of its next turn, the corporeal undead is off-guard against the creature that critically hit it.",
-    tags: ["corporeal", "bludgeoning", "defense", "manual"], filters: { damageTypes: ["bludgeoning"], excludedTargetTraits: ["incorporeal"] }, effect: null,
-    metadata: { automation: "manual", reason: "Off-guard applies only against the attacker that caused this critical hit." }
+    title: "Structural Collapse", description: "The bludgeoning critical buckles the undead's physical structure and sends it crashing down. The corporeal undead is prone.",
+    tags: ["corporeal", "bludgeoning", "collapse", "control"], filters: { damageTypes: ["bludgeoning"], excludedTargetTraits: ["incorporeal"] },
+    effect: targetEffect("Structural Collapse", ONE_ROUND_END, [condition("prone")])
   },
   {
     slug: "predator-becomes-prey", key: "PredatorBecomesPrey", tone: "dramatic", impact: "moderate",

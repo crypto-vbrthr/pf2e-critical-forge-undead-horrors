@@ -2,6 +2,25 @@
 
 All notable changes to **PF2E Critical Forge: Undead Horrors** are documented here.
 
+## 0.4.0
+
+### Changed
+
+- Completed the full completeness, density, balance, trait-filter, localization, and automation review across all 90 outcomes.
+- Changed **Spectral Shock** from `stupefied 1` to **dazzled** for one round, removing overlap with the general Soul-Shaken result while giving incorporeal critical hits a distinct sensory consequence.
+- Changed **Death Comes Apart** from `clumsy 1` to **prone**, removing overlap with Loose Bones and making the collapse mechanically distinct.
+- Changed **Structural Collapse** to an automated **prone** result, replacing the narrower manual target-specific off-guard handling.
+- Restricted **Rage Against the Living** to living-like targets by excluding undead and constructs.
+- Corrected German wording for manipulate-trait actions to the official PF2e term **Handhaben**.
+- Updated release metadata and documentation to version `0.4.0`.
+
+### Tests
+
+- Added release-metadata consistency coverage.
+- Added German/English localization-key parity and card-localization coverage.
+- Added review invariants for corporeal/incorporeal filters, living-target filters, and manual/partial automation metadata.
+- Added regression checks for the three reviewed mechanical changes.
+
 ## 0.3.0
 
 ### Added
@@ -49,9 +68,8 @@ All notable changes to **PF2E Critical Forge: Undead Horrors** are documented he
 - Added trait-aware filtering for undead, mindless, incorporeal, intelligent, and living-target situations where appropriate.
 - Added German and English localization.
 
-## Planned: 0.4.0
+## Planned: 1.0.0
 
-- Run a full action-completeness, density, and balance review across all 90 outcomes after playtesting the completed three-deck set.
-- Refine trait and damage-type filters where real Foundry/PF2e encounter data shows overly broad or overly narrow matching.
-- Review manual and partially automated results for additional safe Effect Engine automation.
-- Add further subtype-specific outcomes only where PF2e exposes sufficiently reliable creature traits for deterministic matching.
+- Release-readiness pass after v0.4.0 playtesting.
+- Re-check compatibility against the then-current PF2E Critical Forge public extension contract.
+- Keep the 90-outcome content set stable unless playtesting reveals a concrete gap or balance issue.

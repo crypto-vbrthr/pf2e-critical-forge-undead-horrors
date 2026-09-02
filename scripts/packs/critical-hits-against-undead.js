@@ -1,4 +1,5 @@
 import { MODULE_VERSION, PACK_IDS } from "../constants.js";
+import { CRITICAL_HITS_AGAINST_UNDEAD_CARDS } from "../cards/critical-hits-against-undead-cards.js";
 
 export function createCriticalHitsAgainstUndeadPack({ enabled = true } = {}) {
   return {
@@ -14,8 +15,10 @@ export function createCriticalHitsAgainstUndeadPack({ enabled = true } = {}) {
     metadata: {
       theme: "undead-horrors",
       direction: "target-undead",
-      outcome: "critical-hit"
+      outcome: "critical-hit",
+      semanticCardCount: 30,
+      categoryMirroring: ["criticalHit", "spellCriticalHit"]
     },
-    decks: { attack: [] }
+    decks: { attack: CRITICAL_HITS_AGAINST_UNDEAD_CARDS }
   };
 }

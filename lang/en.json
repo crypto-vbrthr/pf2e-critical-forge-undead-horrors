@@ -335,6 +335,158 @@
           "Description": "For a grotesque instant the dead body simply stops being a coherent body. The corporeal undead is clumsy 1 until the end of its next turn; the exact collapse is narrative and leaves no permanent injury.",
           "EffectName": "Death Comes Apart"
         }
+      },
+      "CriticalHitsAgainstUndead": {
+        "BrokenAnimation": {
+          "Title": "Broken Animation",
+          "Description": "The critical hit disrupts the force animating the dead. The undead is enfeebled 1 until the end of its next turn.",
+          "EffectName": "Broken Animation"
+        },
+        "DeathlyInstability": {
+          "Title": "Deathly Instability",
+          "Description": "The undead's unnatural balance wavers. It takes a -1 status penalty to Reflex saves until the end of its next turn.",
+          "EffectName": "Deathly Instability"
+        },
+        "GraveEnergyBleedsAway": {
+          "Title": "Grave Energy Bleeds Away",
+          "Description": "Power leaks from the wound in cold wisps. The undead takes a -1 status penalty to attack rolls until the end of its next turn.",
+          "EffectName": "Grave Energy Bleeds Away"
+        },
+        "DisruptedPattern": {
+          "Title": "Disrupted Pattern",
+          "Description": "The blow leaves the undead's animating pattern briefly vulnerable. It takes a -1 penalty to its next saving throw before the end of its next turn.",
+          "EffectName": "Disrupted Pattern"
+        },
+        "ExposedNecromancy": {
+          "Title": "Exposed Necromancy",
+          "Description": "The piercing critical tears into the power holding the undead together. It gains weakness 2 to vitality damage until the beginning of its next turn.",
+          "EffectName": "Exposed Necromancy"
+        },
+        "DeathlyOpening": {
+          "Title": "Deathly Opening",
+          "Description": "The critical hit opens a gap in the undead's defense. It is off-guard until the beginning of its next turn.",
+          "EffectName": "Deathly Opening"
+        },
+        "SeveredResponse": {
+          "Title": "Severed Response",
+          "Description": "The impact interrupts the undead's ability to answer threats. Until the beginning of its next turn, it can't use reactions.",
+          "EffectName": "Severed Response"
+        },
+        "GraveStaggered": {
+          "Title": "Grave-Staggered",
+          "Description": "The undead reels under a blow that would have dropped a living foe. It takes a 10-foot status penalty to all Speeds until the end of its next turn.",
+          "EffectName": "Grave-Staggered"
+        },
+        "UnholyPatternFractured": {
+          "Title": "Unholy Pattern Fractured",
+          "Description": "The force that anchors the undead's will fractures. It takes a -1 status penalty to Will saves until the end of its next turn.",
+          "EffectName": "Unholy Pattern Fractured"
+        },
+        "AnimationLaidBare": {
+          "Title": "Animation Laid Bare",
+          "Description": "The piercing strike exposes a fleeting weakness in the undead's animation. The next attack against it before the beginning of its next turn gains a +1 circumstance bonus.",
+          "EffectName": "Animation Laid Bare"
+        },
+        "UnnaturalBalanceBroken": {
+          "Title": "Unnatural Balance Broken",
+          "Description": "The hit throws the undead's unnatural balance out of alignment. It takes a -1 status penalty to Athletics and Acrobatics until the end of its next turn.",
+          "EffectName": "Unnatural Balance Broken"
+        },
+        "GraveFalters": {
+          "Title": "The Grave Falters",
+          "Description": "The undead's awareness flickers with the force sustaining it. It takes a -1 status penalty to Perception until the end of its next turn.",
+          "EffectName": "The Grave Falters"
+        },
+        "ShatteredFrame": {
+          "Title": "Shattered Frame",
+          "Description": "The bludgeoning critical smashes the undead's physical structure out of alignment. The corporeal undead is clumsy 1 until the end of its next turn.",
+          "EffectName": "Shattered Frame"
+        },
+        "CrackedHusk": {
+          "Title": "Cracked Husk",
+          "Description": "Bone, dead flesh, wrappings, or another physical shell splits under the blow. The corporeal undead takes a -1 status penalty to AC until the beginning of its next turn.",
+          "EffectName": "Cracked Husk"
+        },
+        "SplinteredSupport": {
+          "Title": "Splintered Support",
+          "Description": "The impact damages a leg, spine, or other support. The corporeal undead takes a 10-foot status penalty to all Speeds until the end of its next turn.",
+          "EffectName": "Splintered Support"
+        },
+        "RuinedJoint": {
+          "Title": "Ruined Joint",
+          "Description": "The slashing critical tears through a joint or comparable point of articulation. The corporeal undead can't Step until the end of its next turn.",
+          "EffectName": "Ruined Joint"
+        },
+        "FracturedGrip": {
+          "Title": "Fractured Grip",
+          "Description": "The slashing critical ruins the undead's grip or striking limb. The corporeal undead takes a -1 status penalty to melee attack rolls until the end of its next turn.",
+          "EffectName": "Fractured Grip"
+        },
+        "PiecesMissing": {
+          "Title": "Pieces Missing",
+          "Description": "The slashing blow sends pieces of the corpse, wrappings, or equipment flying. Until the end of its next turn, the corporeal undead takes a -1 circumstance penalty to checks made as part of manipulate actions.",
+          "EffectName": "Pieces Missing"
+        },
+        "CrushedRemains": {
+          "Title": "Crushed Remains",
+          "Description": "The bludgeoning critical leaves the corporeal undead poorly able to exert force. It takes a -1 status penalty to Athletics until the end of its next turn, including Athletics-based physical maneuvers.",
+          "EffectName": "Crushed Remains"
+        },
+        "StructuralCollapse": {
+          "Title": "Structural Collapse",
+          "Description": "The bludgeoning critical buckles the undead's physical structure. Until the beginning of its next turn, the corporeal undead is off-guard against the creature that critically hit it.",
+          "EffectName": "Structural Collapse"
+        },
+        "PredatorBecomesPrey": {
+          "Title": "Predator Becomes Prey",
+          "Description": "For a moment, the intelligent undead realizes it can still be destroyed. If it isn't immune to fear, it becomes frightened 1.",
+          "EffectName": "Predator Becomes Prey"
+        },
+        "ProfaneArroganceBroken": {
+          "Title": "Profane Arrogance Broken",
+          "Description": "The intelligent undead's certainty fractures. It takes a -1 penalty to attacks against the creature that critically hit it until the end of its next turn.",
+          "EffectName": "Profane Arrogance Broken"
+        },
+        "MemoryOfMortality": {
+          "Title": "Memory of Mortality",
+          "Description": "The impact awakens a fragmentary memory of being mortal, or of the death that made the creature what it is. The intelligent undead is stupefied 1 until the end of its next turn.",
+          "EffectName": "Memory of Mortality"
+        },
+        "CommandPatternShattered": {
+          "Title": "Command Pattern Shattered",
+          "Description": "The critical hit scrambles the simple pattern driving the mindless undead. It takes a -1 penalty to its next attack roll and its next Perception check before the end of its next turn.",
+          "EffectName": "Command Pattern Shattered"
+        },
+        "InstinctiveBreakdown": {
+          "Title": "Instinctive Breakdown",
+          "Description": "The primitive impulses animating the mindless dead fall out of sequence. Until the beginning of its next turn, it can't use reactions, and it takes a -1 status penalty to Reflex saves until the end of its next turn.",
+          "EffectName": "Instinctive Breakdown"
+        },
+        "UnravelingApparition": {
+          "Title": "Unraveling Apparition",
+          "Description": "The critical hit makes the incorporeal undead's outline fray and distort. It is clumsy 1 until the end of its next turn.",
+          "EffectName": "Unraveling Apparition"
+        },
+        "SpiritualFracture": {
+          "Title": "Spiritual Fracture",
+          "Description": "A fracture runs through the apparition's spiritual structure. The incorporeal undead takes a -1 status penalty to Will saves until the end of its next turn.",
+          "EffectName": "Spiritual Fracture"
+        },
+        "ForcedManifestation": {
+          "Title": "Forced Manifestation",
+          "Description": "The blow forces the apparition into unusually sharp focus. The incorporeal undead takes a -1 status penalty to AC until the beginning of its next turn.",
+          "EffectName": "Forced Manifestation"
+        },
+        "TornFromTheVeil": {
+          "Title": "Torn from the Veil",
+          "Description": "The apparition loses its grip on the boundary between worlds. Until the beginning of its next turn, the incorporeal undead can't use reactions.",
+          "EffectName": "Torn from the Veil"
+        },
+        "EssenceLaidBare": {
+          "Title": "Essence Laid Bare",
+          "Description": "The critical hit tears open the apparition's spiritual substance. The incorporeal undead gains weakness 2 to spirit damage until the beginning of its next turn.",
+          "EffectName": "Essence Laid Bare"
+        }
       }
     }
   }

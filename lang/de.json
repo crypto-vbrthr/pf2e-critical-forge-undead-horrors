@@ -335,6 +335,158 @@
           "Description": "Für einen grotesken Augenblick hört der tote Körper einfach auf, ein zusammenhängender Körper zu sein. Der körperliche Untote ist bis zum Ende seines nächsten Zuges unbeholfen 1; der genaue Zerfall ist rein erzählerisch und hinterlässt keine dauerhafte Verletzung.",
           "EffectName": "Der Tod fällt auseinander"
         }
+      },
+      "CriticalHitsAgainstUndead": {
+        "BrokenAnimation": {
+          "Title": "Gestörte Animation",
+          "Description": "Der kritische Treffer stört die Kraft, welche den Toten antreibt. Der Untote ist bis zum Ende seines nächsten Zuges geschwächt 1.",
+          "EffectName": "Gestörte Animation"
+        },
+        "DeathlyInstability": {
+          "Title": "Tödliche Instabilität",
+          "Description": "Das unnatürliche Gleichgewicht des Untoten gerät ins Wanken. Er erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Reflexwürfe.",
+          "EffectName": "Tödliche Instabilität"
+        },
+        "GraveEnergyBleedsAway": {
+          "Title": "Entweichende Grabenergie",
+          "Description": "Kalte Schwaden von Macht entweichen aus der Wunde. Der Untote erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Angriffswürfe.",
+          "EffectName": "Entweichende Grabenergie"
+        },
+        "DisruptedPattern": {
+          "Title": "Gestörtes Muster",
+          "Description": "Der Treffer macht das animierende Muster des Untoten kurzzeitig verwundbar. Er erhält auf seinen nächsten Rettungswurf vor Ende seines nächsten Zuges einen Malus von -1.",
+          "EffectName": "Gestörtes Muster"
+        },
+        "ExposedNecromancy": {
+          "Title": "Freigelegte Nekromantie",
+          "Description": "Der kritische Stich legt die Macht frei, die den Untoten zusammenhält. Er erhält bis zum Beginn seines nächsten Zuges Schwäche 2 gegen Lebensschaden.",
+          "EffectName": "Freigelegte Nekromantie"
+        },
+        "DeathlyOpening": {
+          "Title": "Tödliche Lücke",
+          "Description": "Der kritische Treffer reißt eine Lücke in die Verteidigung des Untoten. Er ist bis zum Beginn seines nächsten Zuges auf dem falschen Fuß.",
+          "EffectName": "Tödliche Lücke"
+        },
+        "SeveredResponse": {
+          "Title": "Unterbrochene Reaktion",
+          "Description": "Der Einschlag unterbricht die Fähigkeit des Untoten, auf Gefahren zu reagieren. Bis zum Beginn seines nächsten Zuges kann er keine Reaktionen einsetzen.",
+          "EffectName": "Unterbrochene Reaktion"
+        },
+        "GraveStaggered": {
+          "Title": "Vom Grab erschüttert",
+          "Description": "Der Untote taumelt unter einem Treffer, der einen Lebenden gefällt hätte. Er erhält bis zum Ende seines nächsten Zuges einen Statusmalus von 3 m auf alle Bewegungsraten.",
+          "EffectName": "Vom Grab erschüttert"
+        },
+        "UnholyPatternFractured": {
+          "Title": "Unheiliges Muster gebrochen",
+          "Description": "Die Kraft, welche den Willen des Untoten verankert, bekommt Risse. Er erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Willenswürfe.",
+          "EffectName": "Unheiliges Muster gebrochen"
+        },
+        "AnimationLaidBare": {
+          "Title": "Animation bloßgelegt",
+          "Description": "Der kritische Stich legt eine flüchtige Schwachstelle in der Animation des Untoten frei. Der nächste Angriff gegen ihn vor Beginn seines nächsten Zuges erhält einen Situationsbonus von +1.",
+          "EffectName": "Animation bloßgelegt"
+        },
+        "UnnaturalBalanceBroken": {
+          "Title": "Unnatürliches Gleichgewicht gebrochen",
+          "Description": "Der Treffer bringt das unnatürliche Gleichgewicht des Untoten aus dem Lot. Er erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Athletik und Akrobatik.",
+          "EffectName": "Unnatürliches Gleichgewicht gebrochen"
+        },
+        "GraveFalters": {
+          "Title": "Das Grab wankt",
+          "Description": "Die Wahrnehmung des Untoten flackert mit der Kraft, die ihn erhält. Er erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Wahrnehmung.",
+          "EffectName": "Das Grab wankt"
+        },
+        "ShatteredFrame": {
+          "Title": "Zerschmettertes Gerüst",
+          "Description": "Der kritische Wuchttreffer schlägt die körperliche Struktur des Untoten aus der Ausrichtung. Der körperliche Untote ist bis zum Ende seines nächsten Zuges unbeholfen 1.",
+          "EffectName": "Zerschmettertes Gerüst"
+        },
+        "CrackedHusk": {
+          "Title": "Geborstene Hülle",
+          "Description": "Knochen, totes Fleisch, Bandagen oder eine andere körperliche Hülle reißen unter dem Treffer auf. Der körperliche Untote erhält bis zum Beginn seines nächsten Zuges einen Statusmalus von -1 auf RK.",
+          "EffectName": "Geborstene Hülle"
+        },
+        "SplinteredSupport": {
+          "Title": "Zertrümmerte Stütze",
+          "Description": "Der Treffer beschädigt ein Bein, die Wirbelsäule oder eine andere tragende Struktur. Der körperliche Untote erhält bis zum Ende seines nächsten Zuges einen Statusmalus von 3 m auf alle Bewegungsraten.",
+          "EffectName": "Zertrümmerte Stütze"
+        },
+        "RuinedJoint": {
+          "Title": "Zerstörtes Gelenk",
+          "Description": "Der kritische Hieb zerreißt ein Gelenk oder einen vergleichbaren Bewegungspunkt. Der körperliche Untote kann bis zum Ende seines nächsten Zuges keinen Schritt einsetzen.",
+          "EffectName": "Zerstörtes Gelenk"
+        },
+        "FracturedGrip": {
+          "Title": "Gebrochener Griff",
+          "Description": "Der kritische Hieb ruiniert den Griff oder ein Schlagglied des Untoten. Der körperliche Untote erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Nahkampfangriffe.",
+          "EffectName": "Gebrochener Griff"
+        },
+        "PiecesMissing": {
+          "Title": "Fehlende Teile",
+          "Description": "Der Hieb schleudert Teile des Leichnams, Bandagen oder Ausrüstung davon. Bis zum Ende seines nächsten Zuges erhält der körperliche Untote einen Situationsmalus von -1 auf Würfe im Rahmen von Handlungen mit der Kategorie Handhaben.",
+          "EffectName": "Fehlende Teile"
+        },
+        "CrushedRemains": {
+          "Title": "Zerquetschte Überreste",
+          "Description": "Der kritische Wuchttreffer erschwert es dem körperlichen Untoten, Kraft auszuüben. Er erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Athletik, einschließlich körperlicher Manöver mit Athletik.",
+          "EffectName": "Zerquetschte Überreste"
+        },
+        "StructuralCollapse": {
+          "Title": "Struktureller Zusammenbruch",
+          "Description": "Der kritische Wuchttreffer lässt die körperliche Struktur des Untoten einknicken. Bis zum Beginn seines nächsten Zuges ist der körperliche Untote gegenüber der Kreatur, die ihn kritisch getroffen hat, auf dem falschen Fuß.",
+          "EffectName": "Struktureller Zusammenbruch"
+        },
+        "PredatorBecomesPrey": {
+          "Title": "Der Jäger wird zur Beute",
+          "Description": "Für einen Moment erkennt der intelligente Untote, dass auch er vernichtet werden kann. Sofern er nicht gegen Furcht immun ist, erhält er verängstigt 1.",
+          "EffectName": "Der Jäger wird zur Beute"
+        },
+        "ProfaneArroganceBroken": {
+          "Title": "Profane Arroganz gebrochen",
+          "Description": "Die Gewissheit des intelligenten Untoten bekommt Risse. Er erhält bis zum Ende seines nächsten Zuges einen Malus von -1 auf Angriffe gegen die Kreatur, die ihn kritisch getroffen hat.",
+          "EffectName": "Profane Arroganz gebrochen"
+        },
+        "MemoryOfMortality": {
+          "Title": "Erinnerung an die Sterblichkeit",
+          "Description": "Der Treffer weckt eine bruchstückhafte Erinnerung an das sterbliche Leben oder an den Tod, der die Kreatur zu dem machte, was sie ist. Der intelligente Untote ist bis zum Ende seines nächsten Zuges benommen 1.",
+          "EffectName": "Erinnerung an die Sterblichkeit"
+        },
+        "CommandPatternShattered": {
+          "Title": "Befehlsmuster zerschmettert",
+          "Description": "Der kritische Treffer bringt das einfache Muster durcheinander, das den geistlosen Untoten antreibt. Er erhält auf seinen nächsten Angriffswurf und seinen nächsten Wahrnehmungswurf vor Ende seines nächsten Zuges jeweils einen Malus von -1.",
+          "EffectName": "Befehlsmuster zerschmettert"
+        },
+        "InstinctiveBreakdown": {
+          "Title": "Instinktiver Zusammenbruch",
+          "Description": "Die primitiven Impulse, die den geistlosen Toten antreiben, geraten aus dem Takt. Bis zum Beginn seines nächsten Zuges kann er keine Reaktionen einsetzen und erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Reflexwürfe.",
+          "EffectName": "Instinktiver Zusammenbruch"
+        },
+        "UnravelingApparition": {
+          "Title": "Zerfasernde Erscheinung",
+          "Description": "Der kritische Treffer lässt die Konturen des körperlosen Untoten ausfransen und verzerren. Er ist bis zum Ende seines nächsten Zuges unbeholfen 1.",
+          "EffectName": "Zerfasernde Erscheinung"
+        },
+        "SpiritualFracture": {
+          "Title": "Spiritueller Riss",
+          "Description": "Ein Riss läuft durch die spirituelle Struktur der Erscheinung. Der körperlose Untote erhält bis zum Ende seines nächsten Zuges einen Statusmalus von -1 auf Willenswürfe.",
+          "EffectName": "Spiritueller Riss"
+        },
+        "ForcedManifestation": {
+          "Title": "Erzwungene Manifestation",
+          "Description": "Der Treffer zwingt die Erscheinung in ungewöhnlich scharfe Konturen. Der körperlose Untote erhält bis zum Beginn seines nächsten Zuges einen Statusmalus von -1 auf RK.",
+          "EffectName": "Erzwungene Manifestation"
+        },
+        "TornFromTheVeil": {
+          "Title": "Aus dem Schleier gerissen",
+          "Description": "Die Erscheinung verliert den Halt an der Grenze zwischen den Welten. Bis zum Beginn ihres nächsten Zuges kann der körperlose Untote keine Reaktionen einsetzen.",
+          "EffectName": "Aus dem Schleier gerissen"
+        },
+        "EssenceLaidBare": {
+          "Title": "Bloßgelegte Essenz",
+          "Description": "Der kritische Treffer reißt die spirituelle Substanz der Erscheinung auf. Der körperlose Untote erhält bis zum Beginn seines nächsten Zuges Schwäche 2 gegen Seelenschaden.",
+          "EffectName": "Bloßgelegte Essenz"
+        }
       }
     }
   }

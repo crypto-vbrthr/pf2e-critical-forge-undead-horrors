@@ -2,6 +2,24 @@
 
 All notable changes to **PF2E Critical Forge: Undead Horrors** are documented here.
 
+## 0.3.0
+
+### Added
+
+- Added the complete **Critical Hits against Undead** deck with 30 distinct outcomes.
+- Mirrored the 30 outcomes for weapon and spell attack criticals, yielding 60 new internal Critical Forge card definitions.
+- Added dedicated outcomes for corporeal, intelligent, mindless, and incorporeal undead.
+- Added eight damage-type-sensitive outcomes for bludgeoning, slashing, and piercing criticals.
+- Added temporary vitality and spirit weaknesses where appropriate.
+- Added German and English localization for the third deck.
+- Added automated registration/content coverage for all three decks.
+
+### Changed
+
+- Updated release metadata to version `0.3.0`.
+- All three independently configurable packs are now fully populated.
+- The initial Undead Horrors set now contains 90 semantic outcomes and 180 mirrored internal card definitions.
+
 ## 0.2.0
 
 ### Added
@@ -31,9 +49,9 @@ All notable changes to **PF2E Critical Forge: Undead Horrors** are documented he
 - Added trait-aware filtering for undead, mindless, incorporeal, intelligent, and living-target situations where appropriate.
 - Added German and English localization.
 
-## Planned: 0.3.0
+## Planned: 0.4.0
 
-- Add the complete **Critical Hits against Undead** deck with 30 distinct outcomes.
-- Include dedicated results for corporeal, intelligent, mindless, and incorporeal undead.
-- Add damage-type-sensitive results where they improve the fiction without shrinking the usable card pool too aggressively.
-- Complete the initial three-deck, 90-outcome Undead Horrors set.
+- Run a full action-completeness, density, and balance review across all 90 outcomes after playtesting the completed three-deck set.
+- Refine trait and damage-type filters where real Foundry/PF2e encounter data shows overly broad or overly narrow matching.
+- Review manual and partially automated results for additional safe Effect Engine automation.
+- Add further subtype-specific outcomes only where PF2e exposes sufficiently reliable creature traits for deterministic matching.

@@ -1,51 +1,45 @@
-import { MODULE_ID, PACK_IDS } from "./packs/helpers.js";
-import { UNDEAD_CRITICAL_HITS_PACK } from "./packs/undead-horrors.js";
-import { SETTINGS, isPackEnabled, registerSettings } from "./settings.js";
-
-let extension = null;
-
-const PACKS = Object.freeze([
-  { id: PACK_IDS.undeadCriticalHits, setting: SETTINGS.undeadCriticalHits, pack: UNDEAD_CRITICAL_HITS_PACK },
-  // The next two entries become active automatically once their card packs are added.
-  { id: PACK_IDS.undeadFumbles, setting: SETTINGS.undeadFumbles, pack: null },
-  { id: PACK_IDS.criticalHitsAgainstUndead, setting: SETTINGS.criticalHitsAgainstUndead, pack: null }
-]);
+import { MODULE_ID, MODULE_VERSION, SETTINGS } from "./constants.js";
+import { registerSettings } from "./settings.js";
+import { createUndeadCriticalHitsPack } from "./packs/undead-critical-hits.js";
+import { createUndeadCriticalFumblesPack } from "./packs/undead-critical-fumbles.js";
+import { createCriticalHitsAgainstUndeadPack } from "./packs/critical-hits-against-undead.js";
 
 Hooks.once("init", () => {
-  registerSettings(() => syncPackRegistration());
+  registerSettings();
 });
 
 Hooks.once("pf2eCriticalForgeReady", (forge) => {
   try {
-    extension = forge.extensions.forModule(MODULE_ID, {
-      version: "0.1.1",
+    const extension = forge.extensions.forModule(MODULE_ID, {
+      version: MODULE_VERSION,
       requirements: {
         apiVersion: ">=0.9.7",
         extensionContractVersion: ">=1",
+        cardPackSchemaVersion: ">=1",
         capabilities: ["cards.multiDeckPacks"]
       }
     });
+
     extension.assertCompatible();
-    syncPackRegistration();
-    console.info(`${MODULE_ID} | Undead Horrors pack settings synchronized.`);
+    extension.registerPacks(buildPacks(), { replace: true });
   } catch (error) {
-    console.error(`${MODULE_ID} | Registration failed.`, error);
-    ui?.notifications?.error?.("PF2E Critical Forge: Undead Horrors could not register its card packs. See console for details.");
+    console.error(`${MODULE_ID} | Could not register Critical Forge packs.`, error);
+    ui?.notifications?.error?.(
+      game.i18n.localize("PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Errors.RegistrationFailed")
+    );
   }
 });
 
-function syncPackRegistration() {
-  if (!extension) return;
-
-  for (const entry of PACKS) {
-    const registered = Boolean(extension.getPack(entry.id));
-    const shouldRegister = Boolean(entry.pack) && isPackEnabled(entry.setting);
-
-    if (shouldRegister && !registered) {
-      extension.registerPack(entry.pack);
-      continue;
-    }
-
-    if (!shouldRegister && registered) extension.unregisterPack(entry.id);
-  }
+export function buildPacks() {
+  return [
+    createUndeadCriticalHitsPack({
+      enabled: game.settings.get(MODULE_ID, SETTINGS.ENABLE_UNDEAD_CRITICAL_HITS)
+    }),
+    createUndeadCriticalFumblesPack({
+      enabled: game.settings.get(MODULE_ID, SETTINGS.ENABLE_UNDEAD_CRITICAL_FUMBLES)
+    }),
+    createCriticalHitsAgainstUndeadPack({
+      enabled: game.settings.get(MODULE_ID, SETTINGS.ENABLE_CRITICAL_HITS_AGAINST_UNDEAD)
+    })
+  ];
 }

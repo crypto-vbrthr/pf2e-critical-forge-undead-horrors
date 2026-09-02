@@ -1,30 +1,33 @@
-import { MODULE_ID } from "./packs/helpers.js";
+import { MODULE_ID, SETTINGS } from "./constants.js";
 
-export const SETTINGS = Object.freeze({
-  undeadCriticalHits: "packUndeadCriticalHits",
-  undeadFumbles: "packUndeadFumbles",
-  criticalHitsAgainstUndead: "packCriticalHitsAgainstUndead"
-});
+export function registerSettings() {
+  registerToggle(
+    SETTINGS.ENABLE_UNDEAD_CRITICAL_HITS,
+    "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Settings.EnableUndeadCriticalHits.Name",
+    "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Settings.EnableUndeadCriticalHits.Hint"
+  );
 
-export function registerSettings(onPackSettingChanged) {
-  registerPackSetting(SETTINGS.undeadCriticalHits, "UndeadCriticalHits", true, onPackSettingChanged);
-  registerPackSetting(SETTINGS.undeadFumbles, "UndeadFumbles", true, onPackSettingChanged);
-  registerPackSetting(SETTINGS.criticalHitsAgainstUndead, "CriticalHitsAgainstUndead", true, onPackSettingChanged);
+  registerToggle(
+    SETTINGS.ENABLE_UNDEAD_CRITICAL_FUMBLES,
+    "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Settings.EnableUndeadCriticalFumbles.Name",
+    "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Settings.EnableUndeadCriticalFumbles.Hint"
+  );
+
+  registerToggle(
+    SETTINGS.ENABLE_CRITICAL_HITS_AGAINST_UNDEAD,
+    "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Settings.EnableCriticalHitsAgainstUndead.Name",
+    "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Settings.EnableCriticalHitsAgainstUndead.Hint"
+  );
 }
 
-export function isPackEnabled(settingKey) {
-  return game.settings.get(MODULE_ID, settingKey) !== false;
-}
-
-function registerPackSetting(key, localizationKey, defaultValue, onChange) {
+function registerToggle(key, name, hint) {
   game.settings.register(MODULE_ID, key, {
-    name: `PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Settings.${localizationKey}.Name`,
-    hint: `PF2E_CRITICAL_FORGE_UNDEAD_HORRORS.Settings.${localizationKey}.Hint`,
+    name,
+    hint,
     scope: "world",
     config: true,
     type: Boolean,
-    default: defaultValue,
-    restricted: true,
-    onChange: () => onChange?.()
+    default: true,
+    requiresReload: true
   });
 }

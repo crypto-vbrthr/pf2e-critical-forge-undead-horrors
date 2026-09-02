@@ -1,55 +1,35 @@
 {
   "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS": {
-    "EffectName": "Untoter Schrecken",
-    "Cards": {
-      "GraveColdBlood": {
-        "Title": "Grabeskaltes Blut",
-        "Description": "Todeskälte flutet die Wunde und lässt jede Bewegung steif und widerwillig werden."
+    "Settings": {
+      "EnableUndeadCriticalHits": {
+        "Name": "Kritische Treffer durch Untote",
+        "Hint": "Aktiviert besondere Folgen, wenn ein Untoter mit einem Angriff kritisch trifft. Erfordert einen Neuladen der Welt."
       },
-      "TheGraveRemembersYou": {
-        "Title": "Das Grab erinnert sich an dich",
-        "Description": "Für einen Herzschlag sieht das Opfer im Angreifer die Gestalt seines eigenen Todes."
+      "EnableUndeadCriticalFumbles": {
+        "Name": "Kritische Patzer durch Untote",
+        "Hint": "Aktiviert besondere Folgen, wenn ein Untoter bei einem Angriff kritisch patzt. Erfordert einen Neuladen der Welt."
       },
-      "StolenVitality": {
-        "Title": "Gestohlene Lebenskraft",
-        "Description": "Der Treffer höhlt das Opfer aus, als würde etwas Wesentliches bereits ins Grab gezerrt."
-      },
-      "DeadHandsDoNotRelease": {
-        "Title": "Tote Hände lassen nicht los",
-        "Description": "Der Griff des Leichnams hält mit unmöglicher Kraft nach und ruiniert Haltung und Verteidigung des Opfers."
-      },
-      "DeathsMomentum": {
-        "Title": "Schwung des Todes",
-        "Description": "Der erfolgreiche Treffer nährt die unnatürliche Kraft, die den Toten antreibt, und schärft seinen nächsten Angriff."
+      "EnableCriticalHitsAgainstUndead": {
+        "Name": "Kritische Treffer gegen Untote",
+        "Hint": "Aktiviert besondere Folgen, wenn ein Untoter kritisch getroffen wird. Erfordert einen Neuladen der Welt."
       }
     },
     "Packs": {
       "UndeadCriticalHits": {
-        "Title": "Untote Kritische Treffer",
-        "Description": "Kritische Konsequenzen, die von untoten Angreifern verursacht werden."
+        "Title": "Undead Horrors: Kritische Treffer durch Untote",
+        "Description": "Besondere Folgen kritischer Treffer, deren Angreifer ein Untoter ist."
       },
-      "UndeadFumbles": {
-        "Title": "Untote Patzer",
-        "Description": "Kritische Fehlschläge und Zusammenbrüche untoter Kreaturen."
+      "UndeadCriticalFumbles": {
+        "Title": "Undead Horrors: Kritische Patzer durch Untote",
+        "Description": "Besondere Folgen kritischer Patzer, deren Angreifer ein Untoter ist."
       },
       "CriticalHitsAgainstUndead": {
-        "Title": "Kritische Treffer gegen Untote",
-        "Description": "Verheerende Treffer, welche die unnatürliche Existenz Untoter beschädigen."
+        "Title": "Undead Horrors: Kritische Treffer gegen Untote",
+        "Description": "Besondere Folgen kritischer Treffer gegen untote Ziele."
       }
     },
-    "Settings": {
-      "UndeadCriticalHits": {
-        "Name": "Pack: Untote Kritische Treffer",
-        "Hint": "Verwendet Karten für kritische Treffer, die von untoten Angreifern verursacht werden."
-      },
-      "UndeadFumbles": {
-        "Name": "Pack: Untote Patzer",
-        "Hint": "Verwendet Karten für kritische Fehlschläge untoter Kreaturen. Das Pack wird aktiviert, sobald es Inhalte enthält."
-      },
-      "CriticalHitsAgainstUndead": {
-        "Name": "Pack: Kritische Treffer gegen Untote",
-        "Hint": "Verwendet Karten für kritische Treffer gegen untote Ziele. Das Pack wird aktiviert, sobald es Inhalte enthält."
-      }
+    "Errors": {
+      "RegistrationFailed": "Undead Horrors konnte seine Kartenpakete nicht bei PF2E Critical Forge registrieren."
     }
   }
 }

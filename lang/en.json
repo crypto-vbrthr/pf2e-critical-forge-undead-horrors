@@ -1,55 +1,35 @@
 {
   "PF2E_CRITICAL_FORGE_UNDEAD_HORRORS": {
-    "EffectName": "Undead Horror",
-    "Cards": {
-      "GraveColdBlood": {
-        "Title": "Grave-Cold Blood",
-        "Description": "Deathly cold floods the wound and makes every movement stiff and reluctant."
+    "Settings": {
+      "EnableUndeadCriticalHits": {
+        "Name": "Critical Hits by Undead",
+        "Hint": "Enables special consequences when an undead creature critically hits with an attack. Requires a world reload."
       },
-      "TheGraveRemembersYou": {
-        "Title": "The Grave Remembers You",
-        "Description": "For a heartbeat, the victim sees the shape of its own death staring back from the attacker."
+      "EnableUndeadCriticalFumbles": {
+        "Name": "Critical Fumbles by Undead",
+        "Hint": "Enables special consequences when an undead creature critically fumbles an attack. Requires a world reload."
       },
-      "StolenVitality": {
-        "Title": "Stolen Vitality",
-        "Description": "The blow leaves the victim hollowed out, as though something essential has been dragged toward the grave."
-      },
-      "DeadHandsDoNotRelease": {
-        "Title": "Dead Hands Do Not Release",
-        "Description": "The corpse's grip lingers with impossible strength, spoiling the victim's footing and defense."
-      },
-      "DeathsMomentum": {
-        "Title": "Death's Momentum",
-        "Description": "The successful strike feeds the unnatural force animating the dead, sharpening its next assault."
+      "EnableCriticalHitsAgainstUndead": {
+        "Name": "Critical Hits against Undead",
+        "Hint": "Enables special consequences when an undead creature suffers a critical hit. Requires a world reload."
       }
     },
     "Packs": {
       "UndeadCriticalHits": {
-        "Title": "Undead Critical Hits",
-        "Description": "Critical consequences inflicted by undead attackers."
+        "Title": "Undead Horrors: Critical Hits by Undead",
+        "Description": "Special consequences for critical hits made by undead attackers."
       },
-      "UndeadFumbles": {
-        "Title": "Undead Fumbles",
-        "Description": "Critical failures and breakdowns suffered by undead creatures."
+      "UndeadCriticalFumbles": {
+        "Title": "Undead Horrors: Critical Fumbles by Undead",
+        "Description": "Special consequences for critical fumbles made by undead attackers."
       },
       "CriticalHitsAgainstUndead": {
-        "Title": "Critical Hits Against Undead",
-        "Description": "Devastating blows that disrupt the unnatural existence of undead creatures."
+        "Title": "Undead Horrors: Critical Hits against Undead",
+        "Description": "Special consequences for critical hits against undead targets."
       }
     },
-    "Settings": {
-      "UndeadCriticalHits": {
-        "Name": "Pack: Undead Critical Hits",
-        "Hint": "Use cards for critical hits inflicted by undead attackers."
-      },
-      "UndeadFumbles": {
-        "Name": "Pack: Undead Fumbles",
-        "Hint": "Use cards for critical failures by undead creatures. The pack becomes active once it contains cards."
-      },
-      "CriticalHitsAgainstUndead": {
-        "Name": "Pack: Critical Hits Against Undead",
-        "Hint": "Use cards for critical hits against undead targets. The pack becomes active once it contains cards."
-      }
+    "Errors": {
+      "RegistrationFailed": "Undead Horrors could not register its card packs with PF2E Critical Forge."
     }
   }
 }

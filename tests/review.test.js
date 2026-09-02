@@ -62,10 +62,10 @@ function concept(cards, slug) {
   return found;
 }
 
-test("release metadata is aligned at 0.4.0", () => {
+test("release metadata is aligned at 1.0.0", () => {
   const moduleJson = readJson("module.json");
   const packageJson = readJson("package.json");
-  assert.equal(MODULE_VERSION, "0.4.0");
+  assert.equal(MODULE_VERSION, "1.0.0");
   assert.equal(moduleJson.version, MODULE_VERSION);
   assert.equal(packageJson.version, MODULE_VERSION);
 });

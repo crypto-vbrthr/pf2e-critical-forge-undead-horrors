@@ -2,6 +2,24 @@
 
 All notable changes to **PF2E Critical Forge: Undead Horrors** are documented here.
 
+## 1.0.0
+
+### Release
+
+- Promoted **Undead Horrors** to its first stable release after the v0.4.0 playtest and review passed in Foundry VTT.
+- Confirmed all three independently configurable packs remain fully populated with 30 semantic outcomes each, for **90 distinct outcomes** and **180 mirrored internal card definitions**.
+- Re-checked the public Critical Forge extension contract used by the add-on against **PF2E Critical Forge 1.0.1-rc.6.1** / API `0.9.7`.
+- Kept Critical Card Pack schema `1` and the existing extension requirements unchanged.
+- Finalized release documentation and recorded known automation limitations in the README.
+- Updated release metadata to version `1.0.0`.
+
+### Validation
+
+- Full add-on test suite passes.
+- All three packs pass the current Critical Forge pack validator with no errors or warnings.
+- German and English localization coverage remains complete and aligned.
+- Archive structure and ZIP integrity are verified for release packaging.
+
 ## 0.4.0
 
 ### Changed
@@ -68,8 +86,3 @@ All notable changes to **PF2E Critical Forge: Undead Horrors** are documented he
 - Added trait-aware filtering for undead, mindless, incorporeal, intelligent, and living-target situations where appropriate.
 - Added German and English localization.
 
-## Planned: 1.0.0
-
-- Release-readiness pass after v0.4.0 playtesting.
-- Re-check compatibility against the then-current PF2E Critical Forge public extension contract.
-- Keep the 90-outcome content set stable unless playtesting reveals a concrete gap or balance issue.

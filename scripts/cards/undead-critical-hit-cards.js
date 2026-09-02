@@ -71,7 +71,7 @@ const CONCEPTS = [
     title: "Strength of the Grave", description: "The critical hit feeds the force animating the dead. The undead attacker gains 4 temporary Hit Points for 1 round.",
     tags: ["boon", "temporary-hit-points"],
     effect: sourceEffect("Strength of the Grave", ONE_ROUND_END, [{ type: "temporaryHitPoints", value: 4 }]),
-    metadata: { balanceNote: "Fixed 4 THP in v0.1.0; the Effect Engine does not currently support level-scaled TempHP values in card templates." }
+    metadata: { balanceNote: "Fixed 4 THP; the Effect Engine does not currently support level-scaled TempHP values in card templates." }
   },
   {
     slug: "unnatural-momentum", key: "UnnaturalMomentum", tone: "dramatic", impact: "light",
@@ -106,7 +106,7 @@ const CONCEPTS = [
     title: "The Grave Hungers", description: "A fragment of stolen vitality clings to the attacker. Against a living target, the undead gains 3 temporary Hit Points for 1 round.",
     tags: ["living", "boon", "temporary-hit-points"], filters: { excludedTargetTraits: ["undead", "construct"] },
     effect: sourceEffect("The Grave Hungers", ONE_ROUND_END, [{ type: "temporaryHitPoints", value: 3 }]),
-    metadata: { balanceNote: "Fixed 3 THP in v0.1.0; damage-derived TempHP values are not supported by card templates." }
+    metadata: { balanceNote: "Fixed 3 THP; damage-derived TempHP values are not supported by card templates." }
   },
   {
     slug: "deaths-weight", key: "DeathsWeight", tone: "serious", impact: "moderate",
